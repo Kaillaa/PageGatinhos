@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 150vh;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+nav {
+  background-color: #eb6440;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+#gatin {
+  height: 70px;
+}
+
+.infos {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10vh;
+  font-size: 10px;
+  gap: 25px;
+}
+.container {
+  height: 100vh;
+  margin-top: 10rem;
+}
+.primeiraFileira {
+  flex-direction: row;
+  display: flex;
+  height: 630px;
+  border: 2px;
+  gap: 10px;
+}
+.segundaFileira {
+  flex-direction: row;
+  display: flex;
+  height: 640px;
+  border: 2px;
+  margin-top: 10px;
+  gap: 10px;
+}
+.imgS-01 {
+  height: 640px;
+  width: 670px;
+  top: 2720px;
+  left: 719px;
+}
+.imgS-02 {
+  height: 640px;
+  width: 601px;
+  top: 2720px;
+  left: 719px;
+}
+.teceiraFileira {
+  display: flex;
+  height: 680px;
+  border: 2px;
+  margin-top: 10px;
+}
+.imgT-01 {
+  width: 1280px;
+}
+.quartaFileira {
+  flex-direction: row;
+  display: flex;
+  height: 630px;
+  border: 2px;
+  margin-top: 10px;
+  gap: 10px;
+}
+.quintaFileira {
+  flex-direction: row;
+  display: flex;
+  height: 640px;
+  border: 2px;
+  gap: 10px;
+}
+
+.quintaFileira .img1 {
+  height: 640px;
+  width: 670px;
+  top: 2720px;
+  left: 719px;
+  margin-top: 10px;
+}
+.quintaFileira .img2 {
+  height: 640px;
+  width: 601px;
+  top: 2720px;
+  left: 719px;
+  margin-top: 10px;
+}
+.sextaFileira {
+  display: flex;
+  height: 740px;
+  border: 2px;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.imgSe-1 {
+  width: 1280px;
+  margin-bottom: 6rem;
+
+}
+footer {
+  background-color: #eb6440;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+}
